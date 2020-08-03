@@ -1,4 +1,4 @@
-katz_deli = ["Tyler", "Alex"]
+katz_deli = []
 def line(katz_deli)
   if katz_deli.length > 0 
     x = "The line is currently: "
