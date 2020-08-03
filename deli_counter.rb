@@ -6,7 +6,8 @@ def line(katz_deli)
     katz_deli.each do |person|
       x << "#{num}" + ". " + "#{person} "
       num += 1 
-    x.rstrip
+      x.rstrip
+    
     end
     puts x 
   else
