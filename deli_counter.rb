@@ -7,7 +7,7 @@ def line(katz_deli)
       x << "#{num}" + ". " + "#{person} "
       num += 1 
     end
-    x.chomp(" ")
+    x.strip
     puts x 
   else
     puts "The line is currently empty."
