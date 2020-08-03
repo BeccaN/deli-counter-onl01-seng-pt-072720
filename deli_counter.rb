@@ -4,7 +4,7 @@ def line(katz_deli)
     x = "The line is currently: "
     katz_deli.each do |person|
       num = 1
-      x << #{num} + ". " + #{person}
+      x << "#{num}" + ". " + "#{person}"
       num += 1 
     end
     puts x 
