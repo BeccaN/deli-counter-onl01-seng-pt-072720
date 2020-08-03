@@ -22,7 +22,7 @@ end
 def now_serving(katz_deli)
   
   if katz_deli.length > 0 
-    name = katz_deli.index(0)
+    name = katz_deli.first 
     puts "Currently serving #{name}"
     katz_deli.drop(1)
   else
