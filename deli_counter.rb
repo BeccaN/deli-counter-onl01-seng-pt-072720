@@ -6,8 +6,8 @@ def line(katz_deli)
     katz_deli.each do |person|
       x << "#{num}" + ". " + "#{person} "
       num += 1 
-    end
     x.rstrip
+    end
     puts x 
   else
     puts "The line is currently empty."
