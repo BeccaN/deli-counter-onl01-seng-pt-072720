@@ -22,11 +22,13 @@ end
 def now_serving(katz_deli)
   
   if katz_deli.length > 0 
-    puts ""
-  
+    name = katz_deli.index(0)
+    puts "Currently serving #{name}"
+    katz_deli.pop
   else
     "There is nobody waiting to be served!"
   end
   
 end 
 
+"Currently serving Logan."
