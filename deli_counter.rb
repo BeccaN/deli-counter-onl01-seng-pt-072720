@@ -24,7 +24,7 @@ def now_serving(katz_deli)
   if katz_deli.length > 0 
     name = katz_deli.index(0)
     puts "Currently serving #{name}"
-    katz_deli.pop
+    katz_deli.drop(1)
   else
     "There is nobody waiting to be served!"
   end
